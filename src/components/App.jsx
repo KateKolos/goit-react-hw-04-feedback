@@ -27,7 +27,7 @@ export class App extends Component {
     const result =
       amountOfGoodFeedback / totalFeedback
         ? Math.round((amountOfGoodFeedback / totalFeedback) * 100)
-        : '0%';
+        : '0';
 
     return result;
   }
